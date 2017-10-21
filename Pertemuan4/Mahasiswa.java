@@ -2,13 +2,13 @@ public class Mahasiswa{
 	public static void main (String[]args){
 	System.out.println("Ini adalah method utama");
 	
-	Mahasiswa richard = new Mahasiswa();
-	richard.printNama();
-	System.out.println(richard.calculateUmur());
+	Mahasiswa septian = new Mahasiswa();
+	septian.printNama();
+	System.out.println(septian.calculateUmur());
 }
 
 public void printNama(){
-	System.out.println("Richard");
+	System.out.println("septian");
 }
 
 public int calculateUmur(){
